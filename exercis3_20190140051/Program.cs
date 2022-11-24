@@ -175,6 +175,22 @@ namespace exercis3_20190140051
                     Console.WriteLine("5. Search for a record in the list");
                     Console.WriteLine("6. Exit");
                     Console.Write("\nEnter your choice (1-6): ");
+                    char ch = Convert.ToChar(Console.ReadLine());
+                    switch (ch)
+                    {
+                        case '1':
+                            {
+                                obj.addNode();
+                            }
+                            break;
+                        case '2':
+                            {
+                                obj.traverse();
+                            }
+                            break;
+
+                        case '3':
+                    }
                 }
             }
         }
