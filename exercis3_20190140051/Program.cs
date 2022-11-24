@@ -160,5 +160,16 @@ namespace exercis3_20190140051
                 Console.WriteLine("\nThe first record in the list is:\n\n" +
                     LAST.next.rollNumber + "    " + LAST.next.name);
         }
+        static void Main(string[] args)
+        {
+            Circularlist obj = new Circularlist();
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("\nMenu")
+                }
+            }
+        }
     }
 }
